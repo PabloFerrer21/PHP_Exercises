@@ -2,12 +2,12 @@
 
 class Coches {
     //Propiedades
-    private $marca;
-    private $color;
+    public $marca;
+    public $color;
 
     //private static $numerodecoches = 0;
 
-    public function __construct($marca, $color) 
+    /*public function __construct($marca, $color) 
     {
       $this->marca = $marca;
       $this->color = $color;
@@ -22,7 +22,7 @@ class Coches {
 
         return $string;
         
-    }
+    }*/
 
     /**
      * Get the value of marca
